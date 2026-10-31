@@ -1,0 +1,12 @@
+bgmitopnews=
+Find the 5 most recent news updates about BGMI (Battlegrounds Mobile India) from April 2026. For each news item, provide the information in the following JSON format:
+
+{
+  "headline": "Your attention-grabbing headline here",
+  "summary": "Brief 1-2 sentence summary of the news",
+  "article": "Full article text with multiple paragraphs separated by \\n\\n",
+  "category": "Esports|Gaming|Tournament|Transfer|General",
+  "keyPoints": ["Key point 1", "Key point 2", "Key point 3"]
+}
+
+Include news about game updates, patches, tournaments, esports events, player transfers, anti-cheat measures, and official announcements. Make sure each article is detailed with at least 3-4 paragraphs and includes relevant dates, prize pools, team names, and player names where applicable.

@@ -1,0 +1,17 @@
+{
+  "name": "khelcircle-excel-imports",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Excel import scripts for teams and players",
+  "scripts": {
+    "create-templates": "node create-excel-templates.js",
+    "import-teams": "node insert-teams-from-excel.js",
+    "import-players": "node insert-players-from-excel.js",
+    "import-bgmi-matches": "node insert-bgmi-matches-from-excel.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
